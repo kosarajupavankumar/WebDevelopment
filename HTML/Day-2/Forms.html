@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Personal Information Form</h1>
+
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label for="phone">Phone</label>
+        <input type="number" id="phone" />
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" min="1" max="100" />
+      </div>
+
+      <div>
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" min="1985-06-10" max="2024-05-05" />
+      </div>
+
+      <div>
+        <p>Favorite Food</p>
+
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple" />
+
+        <label for="orange">Orange</label>
+        <input type="checkbox" id="orange" />
+
+        <label for="burger">Burger</label>
+        <input type="checkbox" id="burger" />
+      </div>
+
+      <div>
+        <p>Gender</p>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" />
+      </div>
+
+      <div>
+        <label for="eyeColor">Eye Color</label>
+        <select id="eyeColor">
+          <option>Black</option>
+          <option>Green</option>
+          <option>Blue</option>
+          <option>Red</option>
+          <option>White</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="carColor">Car's Color</label>
+        <input type="color" id="carColor" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+
+      <div>
+        <label for="file-upload">file-upload</label>
+        <input type="file" id="file-upload" />
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
